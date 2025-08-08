@@ -81,3 +81,8 @@ artifacts/
 *.vssscc
 *.vshost.exe
 *.vshost.exe.manifest
+
+# Visual Studio project/solution files
+*.sln
+*.vcxproj
+*.vcxproj.filters
