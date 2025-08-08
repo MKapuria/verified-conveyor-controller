@@ -22,46 +22,25 @@ Safety for real systems cannot rely on AI guesses. This project shows a layered 
 ## Quick start
 You can start with just the controller.
 
-```bash
-# Clone
-git clone https://github.com/MKapuria/verified-conveyor-controller.git
-cd verified-conveyor-controller//controller
-
-# Build with CMake (Linux or macOS)
-cmake -S . -B build
-cmake --build build --config Release
-
-# Build with MSVC (Windows PowerShell)
-cmake -S . -B build -G "Visual Studio 17 2022"
-cmake --build build --config Release
-
-# Run
-./build/bin/controller_demo    # Linux or macOS
-.\build\Release\controller_demo.exe    # Windows
-```
+1. **Clone or download** this repository.
+2. Open the `controller` folder in any C++17-compatible IDE (Visual Studio, CLion, Xcode, Code::Blocks, etc.).
+3. Set `main.cpp` as the entry point.
+4. Build and run.
 
 Expected output is a short log of states and safety checks. See `controller/README.md` for details.
 
 ## Roadmap
 - [x] C++ FSM controller with safety interlocks and fault handling
-- [ ] CBMC checks for:
-  - state invariants and guarded transitions
-  - array bounds, integer overflows, assertions
-  - no unsafe state reachable given preconditions
-- [ ] TLA+ system model:
-  - plant + controller interaction
-  - safety and liveness properties
-  - fault and delay injection
-- [ ] AI anomaly detector:
-  - demonstrate false positives and false negatives
-  - show controller safety still holds under AI failure
-- [ ] Docs: results, diagrams, short writeups
+- [ ] CBMC code-level verification
+- [ ] TLA+ system-level modeling
+- [ ] AI anomaly detector and safety validation under AI failure
+- [ ] Documentation and results
 
 ## Tech stack
-- C++
+- C++17
 - CBMC
 - TLA+
-- Python for scripts and AI demo
+- Python
 
 ## License
 MIT
