@@ -6,8 +6,6 @@ An end-to-end demo of how to build and verify safety for cyber-physical systems:
 3. System-level verification with TLA+
 4. An AI anomaly detector, with proofs that safety holds even if the AI is wrong
 
-![ProjectDiagram](docs/ProjectDiagram.png)
-
 <p align="center">
   <img src="docs/ProjectDiagram.png" alt="ProjectDiagram" width="500"/>
 </p>
