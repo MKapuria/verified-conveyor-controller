@@ -11,7 +11,7 @@ A safety-critical controller implemented as a finite state machine with explicit
   - bounded outputs and simple rate limits
 - Deterministic transitions with clear logs
 
-- <p align="center">
+<p align="center">
   <img src="docs/controllerFSM.png" alt="controllerFSM" width="500"/>
 </p>
 
