@@ -8,6 +8,11 @@ An end-to-end demo of how to build and verify safety for cyber-physical systems:
 
 ![ProjectDiagram](docs/ProjectDiagram.png)
 
+<p align="center">
+  <img src="docs/ProjectDiagram.png" alt="ProjectDiagram" width="500"/>
+</p>
+
+
 ## Why this repo exists
 Safety for real systems cannot rely on AI monitoring systems alone. This project shows a layered approach where the controller enforces hard safety guarantees, verified at the code and system levels, while AI assists as an anomaly detector.
 
