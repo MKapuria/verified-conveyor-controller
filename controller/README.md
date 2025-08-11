@@ -12,7 +12,7 @@ A safety-critical controller implemented as a finite state machine with explicit
 - Deterministic transitions with clear logs
 
 <p align="center">
-  <img src="main/docs/controllerFSM.png" alt="controllerFSM" width="500"/>
+  <img src="verified-conveyor-controller/docs/controllerFSM.png" alt="controllerFSM" width="500"/>
 </p>
 
 
