@@ -7,7 +7,7 @@ An end-to-end demo of how to build and verify safety for cyber-physical systems:
 4. An AI anomaly detector, with proofs that safety holds even if the AI is wrong
 
 ## Why this repo exists
-Safety for real systems cannot rely on AI guesses. This project shows a layered approach where the controller enforces hard safety guarantees, verified at the code and system levels, while AI assists.
+Safety for real systems cannot rely on AI monitoring systems alone. This project shows a layered approach where the controller enforces hard safety guarantees, verified at the code and system levels, while AI assists as an anomaly detector.
 
 ## Repository layout
 ```
