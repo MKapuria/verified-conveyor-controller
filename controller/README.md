@@ -11,6 +11,11 @@ A safety-critical controller implemented as a finite state machine with explicit
   - bounded outputs and simple rate limits
 - Deterministic transitions with clear logs
 
+- <p align="center">
+  <img src="docs/controllerFSM.png" alt="controllerFSM" width="500"/>
+</p>
+
+
 ## Build and run
 1. Clone or download this repository.
 2. Open the `controller` folder in any C++17-compatible IDE (Visual Studio, CLion, Xcode, Code::Blocks, etc.).
